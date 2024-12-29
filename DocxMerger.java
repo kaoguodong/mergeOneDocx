@@ -10,9 +10,9 @@ import java.util.List;
 public class DocxMerger {
 
     public static void main(String[] args) {
-        String fileName = "12_Netty核心功能精讲以及核心源码剖析";
-        String folderPath = "/Users/xiaotingting/Downloads/学习资料/" + fileName;  // Replace with your folder path
-        String outputFilePath = "/Users/xiaotingting/Downloads/学习资料/" + fileName + ".docx";  // Replace with your output file path
+        String fileName = "xxxx";
+        String folderPath = "/Users/xxxx/Downloads/xxxx/" + fileName;  // Replace with your folder path
+        String outputFilePath = "/Users/xxx/Downloads/xxx/" + fileName + ".docx";  // Replace with your output file path
         try {
             List<File> files = getAllFiles(new File(folderPath));
             mergeFiles(files, outputFilePath);
