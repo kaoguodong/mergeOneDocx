@@ -10,9 +10,9 @@ import java.util.Enumeration;
 public class FileExtractor {
 
     public static void main(String[] args) {
-        String fileName = "11_HBase从入门到精通";
-        String folderPath = "/Users/xiaotingting/Downloads/学习资料/" + fileName;  // Replace with your folder path
-        String outputFilePath = "/Users/xiaotingting/Downloads/学习资料/" + fileName +"unzip";  // Replace with your output file path
+        String fileName = "xxxx";
+        String folderPath = "/Users/xxx/Downloads/xxxx/" + fileName;  // Replace with your folder path
+        String outputFilePath = "/Users/xx/Downloads/xxx/" + fileName +"unzip";  // Replace with your output file path
 
         try {
             extractAllCompressedFilesRecursively(new File(folderPath), outputFilePath);
